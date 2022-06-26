@@ -8,91 +8,11 @@
 
 }
 
-/* @media only screen and (mix-width: 1000px) {
-    
-    .container{
-        width: 50%;
-        margin: 2em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-
-    }
-    .items{
-        width: 100%;
-        padding: 2em;
-
-    }
-
-    
-
-    .items h2{
-        color: hsl(0, 0%, 95%);
-        font-family: 'Big Shoulders Display';
-        font-size: 2rem;
-        margin-top: 1em;
-    }
-    
-    .items p{
-        color: hsl(0, 0%, 100%, 0.75);
-        font-family: 'Lexend Deca';
-        margin-top: 1em;
-        font-size: 1rem;
-        line-height: 1.6;
-    }
-    
-    .item1{
-        background-color:  hsl(31, 77%, 52%);
-        border-top-left-radius: 0.5em;
-        border-bottom-left-radius: 0.5em;
-        margin-top: 2em;
-    }
-    
-    .item2{
-        background-color: hsl(184, 100%, 22%);
-    }
-    
-    .item3{
-        background-color: hsl(179, 100%, 13%);
-        border-top-right-radius: 0.5em;
-        border-bottom-right-radius: 0.5em;
-        margin-bottom: 2em;
-    }
-
-    button{
-        width: 40%;
-        height: 3em;
-        border: 1px transparent;
-        border-radius: 1.5em;
-        margin: 1.5rem;
-    
-    }
-    
-    .btn-1{
-        color: hsl(31, 77%, 52%) ;
-        font-family: 'lexend deca';
-    }
-    .btn-2{
-        color:  hsl(184, 100%, 22%);
-        font-family: 'lexend deca';
-    }
-    .btn-3{
-        color: hsl(179, 100%, 13%);
-        font-family: 'lexend deca';
-    }
-    button:hover{
-        background-color: transparent;
-        color: #fff;
-        border: 1px solid #fff;
-    
-    }
-} */
-
 
  body{
         background-color: hsl(0, 0%, 95%);
         width: auto;
+
     }
 
 
@@ -102,36 +22,38 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     
 }
 
-/* div{
-    display: flex;
-    flex-direction: row;
-} */
 
 .items{
-    width: 20%;
-    /* height: 100vh; */
+    width: 25%;
     padding: 2em;
+    
+
+}
+svg{
+    margin: 1em;
 }
 
 .items h2{
     color: hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display';
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 1em;
     margin-bottom: 0.5em;
+    margin-left: 0.5em;
 }
 
 .items p{
     color: hsl(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca';
-    /* font-weight: 400; */
-    margin-top: 1em;
-    font-size: 1rem;
-    line-height: 1.7;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.1em;
+    line-height: 1.8;
 }
 
 .item1{
@@ -151,27 +73,32 @@
 }
 
 button{
-    width: 60%;
+    width: 55%;
     height: 3em;
     border: 1px transparent;
     border-radius: 1.5em;
-    margin: 1.5rem;
+    margin: 6em 1em 1.3em 1em;
     padding: 1em;
-
 }
 
 .btn-1{
     color: hsl(31, 77%, 52%) ;
     font-family: 'lexend deca';
+    font-size: 1rem;
+    font-weight: bold;
 
 }
 .btn-2{
     color:  hsl(184, 100%, 22%);
     font-family: 'lexend deca';
+    font-size: 1rem;
+    font-weight: bold;
 }
 .btn-3{
     color: hsl(179, 100%, 13%);
     font-family: 'lexend deca';
+    font-size: 1rem;
+    font-weight: bold;
 }
 button:hover{
     background-color: transparent;
