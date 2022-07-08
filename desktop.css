@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
 
  *{
     margin:0;
     padding:0;
+    max-width: 100%;
     box-sizing: border-box;
 
 }
@@ -17,43 +18,50 @@
 
 
 .container{
-    width: 100%;
-    padding: 2em;
-    margin: auto;
+    width: 80%;
+    padding: 3em;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aquamarine;
     
 }
 
 
 .items{
-    width: 25%;
-    padding: 2em;
+    width: 29%;
+    padding: 3em 1em 1.5em 3em;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    
     
 
 }
 svg{
-    margin: 1em;
+    margin-bottom: 2em;
 }
 
 .items h2{
     color: hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display';
-    font-size: 2.5rem;
-    margin-top: 1em;
+    font-size: 2rem;
+    margin-top: 0.5em;
     margin-bottom: 0.5em;
-    margin-left: 0.5em;
+    /* margin-left: 1em; */
 }
 
 .items p{
     color: hsl(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca';
-    margin-top: 2em;
-    margin-left: 1em;
+    font-weight: bold;
+    margin-top: 0.5em;
+    /* margin-left: 2em; */
     margin-right: 1em;
-    font-size: 1.1em;
-    line-height: 1.8;
+    font-size: 0.81em;
+    line-height: 1.9;
+    letter-spacing: 0.1em;
 }
 
 .item1{
@@ -77,27 +85,29 @@ button{
     height: 3em;
     border: 1px transparent;
     border-radius: 1.5em;
-    margin: 6em 1em 1.3em 1em;
-    padding: 1em;
+    margin: 5em 1em 1.5em 0em;
+    font-size: 0.8em;
+    
 }
 
 .btn-1{
     color: hsl(31, 77%, 52%) ;
     font-family: 'lexend deca';
-    font-size: 1rem;
+    /* font-size: 1rem; */
     font-weight: bold;
+    
 
 }
 .btn-2{
     color:  hsl(184, 100%, 22%);
     font-family: 'lexend deca';
-    font-size: 1rem;
+    /* font-size: 1rem; */
     font-weight: bold;
 }
 .btn-3{
     color: hsl(179, 100%, 13%);
     font-family: 'lexend deca';
-    font-size: 1rem;
+    /* font-size: 1rem; */
     font-weight: bold;
 }
 button:hover{
@@ -106,3 +116,4 @@ button:hover{
     border: 1px solid #fff;
 
 }
+ 
